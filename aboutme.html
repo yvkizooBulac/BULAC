@@ -16,17 +16,34 @@
     margin: 0;
 ">
 
-                    
-
     <h1 style="text-align:center; color:white;">ABOUT ME</h1>
 
+    
+    <aside style="
+        color:white;
+        background:rgba(0,0,0,0.5);
+        padding:15px;
+        width:260px;
+        float:right;
+        margin:20px;
+        border-radius:15px;
+    ">
+        <h3>Quick Facts</h3>
+        <p>
+            Course: <abbr title="Bachelor of Science">BS</abbr> Computer Science<br>
+            Favorite Game: Mobile Legends<br>
+            Location: Bool District, Tagbilaran City<br>
+            Age: 19
+        </p>
+    </aside>
+ <!--MY PICTURE!-->
     <div style="text-align:center;">
-        <img src="profile.jpeg" width="300" height="300" style="border-radius:10px;">
+        <img src="profile.jpeg" width="300" height="300" style="border-radius:40px; float: right">
     </div>
 
-    <p style="color:rgb(245, 0, 0); text-align:;">
+    <p style="color:rgb(245, 0, 0); font-size: 22px;">
         My name is Virgilio A. Bulac Jr., a boy with many ambitions, dreams, and goals.
-        I was born on December 3, 2006. I have four brothers.
+        I was born on <abbr title="December">Dec.</abbr> 3, 2006. I have four brothers.
         An interesting fact about me is that whenever I keep losing, I always keep my
         head up and use it as motivation to do even better.
         Another fun fact about me is that I always prioritize others more than myself
@@ -34,29 +51,79 @@
         My favorite color is black, and my favorite food is kinilaw and lechon.
     </p>
 
-    <p style="color:aqua; text-align:Arial;">
+    <p style="color:aqua; font-size: 22px;">
         I find happiness when I play video games and laugh with my friends.
         Most of my time is spent playing Mobile Legends or any other games
         that pique my interest.
         I once dreamed of becoming a professional Mobile Legends player,
         but now it remains just a dream.
         I also find joy when I spend time with my beloved girlfriend.
-        She motivates me when I'm down and is my best friend and most beloved person.
     </p>
 
-    <p style="color:blanchedalmond; text-align:Arial;">
-        I am 19 years old, a first-year college student majoring in BS Computer Science.
+    <p style="color:blanchedalmond; font-size: 22px;">
+        I am 19 years old, a first-year college student majoring in
+        <abbr title="Bachelor of Science in Computer Science">BSCS</abbr>.
         I am a slow learner, but I always strive to learn new things.
-        I currently reside in Bool District, Tagbilaran City, living with my mom and brothers.
         My dad sadly passed away on February 22, 2022.
         My promise to him is to graduate, find a stable job, and provide for my mom.
     </p>
 
-    <div style="text-align:center; margin-top:20px;">
-        <a href="https://www.facebook.com/leyukinochi" style="color:white; margin:10px;">My Facebook</a>
-        <a href="https://www.instagram.com/yukinooooochii/" style="color:white; margin:10px;">My Instagram</a>
-        <a href="https://github.com/yvkizooBulac/BULAC" style="color:white; margin:10px;">My GitHub</a>
-    </div>
+    <address style="
+        text-align:center;
+        margin-top:30px;
+        padding:15px;
+        margin-left:auto;
+        margin-right:auto;
+        font-style:Arial Black;
+    ">
+        <h2 style="color:white;">My Social Media</h2>
+
+        <a href="https://www.facebook.com/leyukinochi"
+           style="color:#00aced; font-size:20px; margin:15px; text-decoration:none;"
+           target="_blank">
+            Facebook
+        </a>
+
+        <a href="https://www.instagram.com/yukinooooochii/"
+           style="color:#e1306c; font-size:20px; margin:15px; text-decoration:none;"
+           target="_blank">
+            Instagram
+        </a>
+
+        <a href="https://github.com/yvkizooBulac/BULAC"
+           style="color:#ffffff; font-size:20px; margin:15px; text-decoration:none;"
+           target="_blank">
+            GitHub
+        </a>
+    </address>
+	
+<div style="text-align:center; margin-top:30px;">
+    <h2 style="color:white;">My Location</h2>
+
+    <img src="MAP.jpg"
+         alt="Clickable map"
+         width="300"
+         height="500"
+         usemap="#profilemap"
+         style="border-radius:10px;">
+
+    <map name="profilemap">
+
+        <area shape="circle"
+              coords="150,250,30"
+              href="https://www.google.com/maps/@9.6307485,123.8806715,16.5z"
+              alt="My Location"
+              target="_blank">
+
+        <area shape="rect"
+              coords="100,300,200,400"
+              href="https://www.google.com/maps/@9.6307485,123.8806715,16.5z"
+              alt="Nearby Area"
+              target="_blank">
+
+    </map>
+</div>
+
 
 </body>
 </html>
